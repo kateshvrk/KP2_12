@@ -1,0 +1,78 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3e6d4, #e8d3b5);
+  text-align: center;
+  color: #3b2a1a;
+}
+
+header {
+  background: linear-gradient(90deg, #2a1a0f, #5a3a22);
+  color: white;
+  padding: 25px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 280px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.35);
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+button {
+  margin-top: 30px;
+  padding: 16px 45px;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #8b4513, #c26a2e);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+#offline {
+  margin: 40px auto;
+  width: fit-content;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
+  padding: 15px 35px;
+  border-radius: 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  font-weight: bold;
+}
